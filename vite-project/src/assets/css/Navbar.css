@@ -1,0 +1,49 @@
+.box-model{
+    color: black;
+    font-size: 50px;
+    margin: 10px;
+    border: 5px solid rgb(57, 57, 220);
+    padding: 10px;
+    }
+    #idSEg{
+        color: red;
+    text-align: center;
+    }
+    .ul{
+        display: flex;
+        padding: 10px;
+        margin: 0;
+        color: white;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color:blueviolet;
+    
+    
+    }
+    .li{
+        cursor: pointer;
+        padding: 3px;
+        text-decoration: none;
+    
+        
+    }
+    .li:hover{
+        background-color: aqua;
+        padding: 3px;
+        border-radius: 10px;
+    }
+    
+
+    .mt-box{
+        height: 390px;
+        background-color: white;
+    }
+    
+    .footer-box{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(94, 87, 87);
+        color:antiquewhite;
+        padding: 5px;
+    }
