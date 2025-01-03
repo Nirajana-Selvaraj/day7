@@ -10,7 +10,7 @@ app.get('/json',(req,res)=>{
     res.send({server:"Welcome",url:"localhost",port:PORT})
 })
 app.get('/static',(req,res)=>{
-    res.sendFile('vite-project backend\index.html')
+    res.sendFile('C:/Users/niraj/Downloads/day4/day6/vite-project backend/index.html')
 })
 app.listen(PORT,()=>{
     console.log(`Backend server connected\nUrl:http://localhost:${PORT}`);
